@@ -1,0 +1,158 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+    --font-main: "Roboto";
+    --font-secondary: "Raleway";
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+} */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+   
+}
+
+.hero-content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 82px;
+    padding: 32px;
+}
+
+.hero-name {
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.text-write {
+color: #f0f0f0;
+}
+
+.text-green {
+color: #14c57c;
+
+}
+/* .hero-name {
+font-weight: 400;
+font-size: 136px;
+line-height: 1.14706;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+color: #f0f0f0;
+}
+
+.name-span {
+color: #14c57c;
+} */
+
+.hero-image {border: 1px solid #000;
+width: 488px;
+height: 788px;
+max-width: 100%;
+border-radius: 8px;
+}
+
+.social-link {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 40px;
+
+}
+
+.social-link-list{
+font-weight: 300;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+color: #f0f0f0;
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.social-link-list:hover{
+
+}
+
+.container-hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 120px 136px;
+    width: 1280px;
+    height: 384px;
+    width: 70%;
+    height: auto;
+    background: #2a2d32;
+    box-sizing: border-box;
+
+}
+.hero-text {
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f0f0f0;
+    flex-wrap: wrap;
+}
+.text-span {
+    color: #14c57c;
+}
