@@ -1,0 +1,167 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+    --font-main: "Roboto";
+    --font-secondary: "Raleway";
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background-white {
+background-color: #fff;
+}
+
+/* .background-black {
+background-color: black;
+} */
+
+.hero {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+
+
+.hero-name-div {
+    float: left;
+    width: 50%;
+    padding-top: 190px;
+  
+}
+
+.hero-name {
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+/* .text-write {
+    color: #f0f0f0;
+}
+
+.text-green {
+    color: #14c57c;
+} */
+
+.container-hero-text {
+    bottom: 0;
+    left: 0;
+    padding: 120px 136px;
+    height: auto;
+    clear: both;
+    position: relative;
+    margin-top: -384px;
+    height: 384px;
+    background: #e4e5e6;
+    /* background: #2a2d32; */
+    box-sizing: border-box;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #292929;
+    /* color: #f0f0f0; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.text-span {
+    color: #00b680;
+}
+
+/* .text-span {
+    color: #14c57c;
+} */
+
+.hero-image {
+    float: right;
+
+}
+.social-div {
+    position: absolute;
+    bottom: 100%;
+    left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+
+}
+
+.social-link-list a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.social-link-list:hover a {
+    color: #009156;
+}
+
+@media screen and ( min-width:768px) {
+   /* .hero{
+    width: 768px;
+    height: 1248px;
+   } */
+
+   .container {
+       width: 95%;
+   }
+}
