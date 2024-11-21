@@ -156,10 +156,37 @@ background-color: black;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    color: #eb0d0d;
+    color: #ffffff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .social-link-list:hover a {
     color: #009156;
 }
+
+
+
+
+/* .container {
+    max-width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+} */
+/* .container {
+    max-width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+} */
