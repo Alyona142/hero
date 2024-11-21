@@ -79,7 +79,13 @@ background-color: black;
     padding-left: 20px;
 }
 
+.text-write {
+    color: #292929;
+}
 
+.text-green {
+    color: #00b680;
+}
 /* .text-write {
     color: #f0f0f0;
 }
@@ -155,13 +161,6 @@ background-color: black;
     color: #009156;
 }
 
-@media screen and ( min-width:768px) {
-   /* .hero{
-    width: 768px;
-    height: 1248px;
-   } */
 
-   .container {
-       width: 95%;
-   }
-}
+
+
